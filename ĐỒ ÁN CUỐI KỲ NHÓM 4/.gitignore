@@ -1,0 +1,13 @@
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+.venv/
+venv/
+data/experiments/*/processed/*
+data/experiments/*/splits/*
+models/**/*.joblib
+reports/**/*.png
+reports/**/*.jpg
+reports/**/*.pdf
+reports/**/*.csv
+!reports/experiment_comparison.csv
