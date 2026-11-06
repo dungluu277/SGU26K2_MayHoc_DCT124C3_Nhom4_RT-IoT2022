@@ -21,7 +21,18 @@ Mỗi experiment có pipeline độc lập để dễ tái lập và so sánh:
 │   │   └── XGBoost.ipynb
 │   └── 05_Evaluation.ipynb
 ├── models/{baseline,exp_01,exp_02}/
-├── reports/{baseline,exp_01,exp_02}/{figures,metrics}/
+├── reports/
+│   ├── baseline/
+│   │   ├── figures/
+│   │   │   └── baseline/
+│   │   │       ├── eda/
+│   │   │       ├── preprocessing/
+│   │   │       ├── splitting/
+│   │   │       ├── training/
+│   │   │       └── evaluation/
+│   │   └── metrics/
+│   ├── exp_01/{figures,metrics}/
+│   └── exp_02/{figures,metrics}/
 ├── configs/{baseline,exp_01,exp_02}.yaml
 ├── README.md
 ├── requirements.txt
@@ -36,6 +47,15 @@ Mỗi experiment có pipeline độc lập để dễ tái lập và so sánh:
 4. Chạy các notebook mô hình trong `04_Training`.
 5. Chạy `05_Evaluation` và lưu kết quả vào thư mục report của experiment.
 6. Cập nhật `reports/experiment_comparison.csv` để so sánh các experiment.
+
+Trong `reports/baseline/figures/baseline`, mỗi thư mục con tương ứng với một bước
+và có thể chứa cả hình ảnh (`.png`, `.jpg`) lẫn dữ liệu trung gian (`.csv`):
+
+- `eda`: biểu đồ và thống kê khám phá dữ liệu.
+- `preprocessing`: kết quả kiểm tra sau tiền xử lý.
+- `splitting`: thông tin về các tập train/validation/test.
+- `training`: biểu đồ hoặc dữ liệu trong quá trình huấn luyện.
+- `evaluation`: confusion matrix, ROC curve và các kết quả đánh giá.
 
 `baseline` là cấu hình tham chiếu; `exp_01` và `exp_02` dùng để thử nghiệm các biến đổi hoặc siêu tham số khác.
 
