@@ -10,7 +10,8 @@ RT-IoT2022-ML/
 ├── notebooks/
 │   ├── 01_data_understanding_eda.ipynb
 │   ├── 02_data_cleaning_splitting.ipynb
-│   └── 03_data_preprocessing.ipynb
+│   ├── 03_data_preprocessing.ipynb
+│   └── 04_random_forest_training.ipynb
 ├── experiments/
 │   ├── baseline/
 │   ├── tuning/
@@ -31,6 +32,9 @@ RT-IoT2022-ML/
 │       ├── figures/
 │       └── tables/
 │   └── 03_data_preprocessing/
+│       ├── figures/
+│       └── tables/
+│   └── 04_random_forest_training/
 │       ├── figures/
 │       └── tables/
 ├── requirements.txt
