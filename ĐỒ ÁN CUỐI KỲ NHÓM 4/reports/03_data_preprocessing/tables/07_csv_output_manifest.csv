@@ -1,0 +1,7 @@
+file,rows,columns
+rf_train.csv,82536,93
+rf_validation.csv,17686,93
+rf_test.csv,17687,93
+mlp_train.csv,82536,93
+mlp_validation.csv,17686,93
+mlp_test.csv,17687,93
