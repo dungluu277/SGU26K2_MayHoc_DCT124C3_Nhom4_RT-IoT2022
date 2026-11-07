@@ -1,0 +1,27 @@
+{
+  "source_file": "RT_IOT2022.csv",
+  "sha256": "956956c09c1764584fa08acd0f6876475626bcedcd6a6b1f8c492c2e9a2089ea",
+  "rows": 123117,
+  "columns": 85,
+  "numeric_columns": 82,
+  "categorical_columns": [
+    "proto",
+    "service",
+    "Attack_type"
+  ],
+  "label_count": 12,
+  "missing_cells": 0,
+  "infinite_cells": 0,
+  "duplicates_excluding_export_index": 5195,
+  "constant_columns": [
+    "bwd_URG_flag_count"
+  ],
+  "conflicting_feature_groups": 6,
+  "rows_in_conflicting_hash_groups": 128,
+  "largest_class": "DOS_SYN_Hping",
+  "largest_count": 94659,
+  "smallest_class": "NMAP_FIN_SCAN",
+  "smallest_count": 28,
+  "imbalance_ratio": 3380.68,
+  "warning": "No rows or columns are modified in the source. Label mapping must be verified with dataset documentation."
+}
