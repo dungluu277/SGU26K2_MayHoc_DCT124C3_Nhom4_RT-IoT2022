@@ -1,7 +1,0 @@
-{
-  "model": "Decision_Tree",
-  "macro_f1": 0.9633299175075859,
-  "macro_recall": 0.9628769849567188,
-  "accuracy": 0.9977948659957028,
-  "fit_seconds": 2.82
-}

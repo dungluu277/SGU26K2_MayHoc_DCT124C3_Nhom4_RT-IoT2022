@@ -1,0 +1,7 @@
+random_state: 42
+target_column: Attack_type
+paths:
+  raw_data: data/raw/RT_IOT2022.csv
+  processed_data: data/processed/RT_IOT2022_processed.csv
+  models: models
+  results: results
