@@ -1,0 +1,47 @@
+﻿model,actual,predicted,count,rate_among_actual
+MLP baseline,ARP_poisioning,Thing_Speak,21,0.01837270341207349
+MLP baseline,DDOS_Slowloris,NMAP_UDP_SCAN,12,0.15
+MLP baseline,Thing_Speak,ARP_poisioning,12,0.010462074978204011
+MLP baseline,NMAP_UDP_SCAN,Thing_Speak,3,0.007751937984496124
+MLP baseline,NMAP_UDP_SCAN,ARP_poisioning,2,0.00516795865633075
+MLP baseline,ARP_poisioning,DDOS_Slowloris,1,0.0008748906386701663
+MLP baseline,ARP_poisioning,NMAP_TCP_scan,1,0.0008748906386701663
+MLP baseline,ARP_poisioning,Wipro_bulb,1,0.0008748906386701663
+MLP baseline,MQTT_Publish,ARP_poisioning,1,0.001610305958132045
+MLP baseline,NMAP_FIN_SCAN,ARP_poisioning,1,0.25
+MLP baseline,NMAP_XMAS_TREE_SCAN,Thing_Speak,1,0.0033112582781456954
+MLP baseline,Wipro_bulb,ARP_poisioning,1,0.030303030303030304
+MLP baseline,Wipro_bulb,MQTT_Publish,1,0.030303030303030304
+MLP baseline,Wipro_bulb,Thing_Speak,1,0.030303030303030304
+MLP cải tiến,ARP_poisioning,Thing_Speak,20,0.017497812773403325
+MLP cải tiến,DDOS_Slowloris,NMAP_UDP_SCAN,12,0.15
+MLP cải tiến,Thing_Speak,ARP_poisioning,11,0.00959023539668701
+MLP cải tiến,NMAP_UDP_SCAN,ARP_poisioning,3,0.007751937984496124
+MLP cải tiến,Wipro_bulb,ARP_poisioning,2,0.06060606060606061
+MLP cải tiến,ARP_poisioning,NMAP_TCP_scan,1,0.0008748906386701663
+MLP cải tiến,MQTT_Publish,ARP_poisioning,1,0.001610305958132045
+MLP cải tiến,NMAP_FIN_SCAN,ARP_poisioning,1,0.25
+MLP cải tiến,NMAP_UDP_SCAN,Thing_Speak,1,0.002583979328165375
+MLP cải tiến,NMAP_UDP_SCAN,Wipro_bulb,1,0.002583979328165375
+MLP cải tiến,NMAP_XMAS_TREE_SCAN,ARP_poisioning,1,0.0033112582781456954
+MLP cải tiến,Thing_Speak,NMAP_UDP_SCAN,1,0.0008718395815170009
+MLP cải tiến,Wipro_bulb,Thing_Speak,1,0.030303030303030304
+RF baseline,Thing_Speak,ARP_poisioning,14,0.012205754141238012
+RF baseline,ARP_poisioning,Thing_Speak,4,0.003499562554680665
+RF baseline,DDOS_Slowloris,NMAP_UDP_SCAN,4,0.05
+RF baseline,NMAP_UDP_SCAN,ARP_poisioning,4,0.0103359173126615
+RF baseline,MQTT_Publish,Thing_Speak,1,0.001610305958132045
+RF baseline,NMAP_FIN_SCAN,ARP_poisioning,1,0.25
+RF baseline,NMAP_XMAS_TREE_SCAN,NMAP_UDP_SCAN,1,0.0033112582781456954
+RF baseline,Thing_Speak,NMAP_UDP_SCAN,1,0.0008718395815170009
+RF baseline,Wipro_bulb,Thing_Speak,1,0.030303030303030304
+RF cải tiến,Thing_Speak,ARP_poisioning,16,0.013949433304272014
+RF cải tiến,ARP_poisioning,Thing_Speak,5,0.004374453193350831
+RF cải tiến,NMAP_UDP_SCAN,ARP_poisioning,4,0.0103359173126615
+RF cải tiến,ARP_poisioning,Wipro_bulb,1,0.0008748906386701663
+RF cải tiến,DDOS_Slowloris,NMAP_UDP_SCAN,1,0.0125
+RF cải tiến,MQTT_Publish,Thing_Speak,1,0.001610305958132045
+RF cải tiến,NMAP_FIN_SCAN,ARP_poisioning,1,0.25
+RF cải tiến,NMAP_XMAS_TREE_SCAN,NMAP_UDP_SCAN,1,0.0033112582781456954
+RF cải tiến,Thing_Speak,NMAP_UDP_SCAN,1,0.0008718395815170009
+RF cải tiến,Wipro_bulb,Thing_Speak,1,0.030303030303030304

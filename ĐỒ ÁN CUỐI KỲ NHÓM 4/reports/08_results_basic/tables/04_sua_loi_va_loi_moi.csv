@@ -1,0 +1,3 @@
+﻿family,base,improved,fixed_errors,new_errors,both_wrong,error_change,delta_macro_f1_pp,delta_macro_recall_pp
+RF,RF baseline,RF cải tiến,7,8,24,1,0.04340324599896306,0.2833878296635617
+MLP,MLP baseline,MLP cải tiến,9,6,50,-3,0.06587955515892086,0.021872265966749183
