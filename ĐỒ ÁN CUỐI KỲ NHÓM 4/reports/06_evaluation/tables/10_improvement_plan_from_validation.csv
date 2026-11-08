@@ -1,0 +1,7 @@
+uu_tien,doi_tuong,van_de,thu_nghiem_buoc_7,tieu_chi_quyet_dinh
+P0,Cả hai,"Macro-F1 rất cao trên phép chia ngẫu nhiên, lớp hiếm support 4–5",Kiểm tra mẫu gần trùng và phiên/thiết bị nếu có metadata; thử lặp chia phân tầng hoặc group split phù hợp,Macro-F1 và Recall theo lớp ổn định qua nhiều phép chia; Test không dùng để chọn
+P1,MLP,DDOS_Slowloris Recall 68/80=85%; 12 mẫu nhầm thành NMAP_UDP_SCAN,"Cân bằng trọng số/mini-batch chỉ trên Train; thử learning_rate, alpha; giữ 100 epoch cố định cho phép đối chiếu","Tăng Recall Slowloris và Macro-F1 trên Validation, không làm Precision sụt mạnh"
+P1,MLP,ARP_poisioning ↔ Thing_Speak: 21 mẫu ARP→Thing và 12 mẫu chiều ngược,"Phân tích các đặc trưng ở các dòng nhầm, thử tiền xử lý robust/log cho biến số phù hợp, điều chỉnh tham số MLP","Giảm nhầm hai chiều, cân bằng Precision–Recall cả hai lớp"
+P2,MLP/RF,"Wipro_bulb: 33 mẫu, MLP chỉ đúng 30; NMAP_FIN_SCAN chỉ 4 mẫu","Kiểm tra thêm dữ liệu độc lập/độ ổn định; cân bằng lớp trên Train có kiểm soát, tránh nhân bản quá mức","Kiểm chứng trên nhiều mẫu/seed, không tối ưu theo 4 mẫu Validation"
+P3,Random Forest,RF gần trần điểm nhưng còn nhầm Thing_Speak→ARP (14 mẫu),Thử max_depth/min_samples_leaf/max_features/class_weight với cùng tập Train,Macro-F1 tăng ổn định; không làm giảm Recall các lớp hiếm
+P3,Cả hai,Khả năng phụ thuộc dấu hiệu đặc thù nguồn thu thập,"Ablation có kiểm soát cho service, id.resp_p; tiền xử lý lại và huấn luyện lại từ Train","So sánh Macro-F1, Recall theo lớp khi bỏ nhóm đặc trưng, không dùng Test để quyết định"
