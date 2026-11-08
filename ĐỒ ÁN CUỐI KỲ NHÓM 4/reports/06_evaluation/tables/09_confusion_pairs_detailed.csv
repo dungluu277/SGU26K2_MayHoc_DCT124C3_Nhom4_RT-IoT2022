@@ -1,0 +1,24 @@
+model,actual,predicted,error_count,Attack_type,support,FN,percent_of_actual_class,percent_of_model_errors
+MLP 100 epochs,ARP_poisioning,Thing_Speak,21,ARP_poisioning,1143,24,1.837270,35.593220
+MLP 100 epochs,DDOS_Slowloris,NMAP_UDP_SCAN,12,DDOS_Slowloris,80,12,15.000000,20.338983
+MLP 100 epochs,Thing_Speak,ARP_poisioning,12,Thing_Speak,1147,12,1.046207,20.338983
+MLP 100 epochs,NMAP_UDP_SCAN,Thing_Speak,3,NMAP_UDP_SCAN,387,5,0.775194,5.084746
+MLP 100 epochs,NMAP_UDP_SCAN,ARP_poisioning,2,NMAP_UDP_SCAN,387,5,0.516796,3.389831
+MLP 100 epochs,ARP_poisioning,DDOS_Slowloris,1,ARP_poisioning,1143,24,0.087489,1.694915
+MLP 100 epochs,ARP_poisioning,NMAP_TCP_scan,1,ARP_poisioning,1143,24,0.087489,1.694915
+MLP 100 epochs,ARP_poisioning,Wipro_bulb,1,ARP_poisioning,1143,24,0.087489,1.694915
+MLP 100 epochs,MQTT_Publish,ARP_poisioning,1,MQTT_Publish,621,1,0.161031,1.694915
+MLP 100 epochs,NMAP_FIN_SCAN,ARP_poisioning,1,NMAP_FIN_SCAN,4,1,25.000000,1.694915
+MLP 100 epochs,NMAP_XMAS_TREE_SCAN,Thing_Speak,1,NMAP_XMAS_TREE_SCAN,302,1,0.331126,1.694915
+MLP 100 epochs,Wipro_bulb,ARP_poisioning,1,Wipro_bulb,33,3,3.030303,1.694915
+MLP 100 epochs,Wipro_bulb,MQTT_Publish,1,Wipro_bulb,33,3,3.030303,1.694915
+MLP 100 epochs,Wipro_bulb,Thing_Speak,1,Wipro_bulb,33,3,3.030303,1.694915
+Random Forest,Thing_Speak,ARP_poisioning,14,Thing_Speak,1147,15,1.220575,45.161290
+Random Forest,ARP_poisioning,Thing_Speak,4,ARP_poisioning,1143,4,0.349956,12.903226
+Random Forest,DDOS_Slowloris,NMAP_UDP_SCAN,4,DDOS_Slowloris,80,4,5.000000,12.903226
+Random Forest,NMAP_UDP_SCAN,ARP_poisioning,4,NMAP_UDP_SCAN,387,4,1.033592,12.903226
+Random Forest,MQTT_Publish,Thing_Speak,1,MQTT_Publish,621,1,0.161031,3.225806
+Random Forest,NMAP_FIN_SCAN,ARP_poisioning,1,NMAP_FIN_SCAN,4,1,25.000000,3.225806
+Random Forest,NMAP_XMAS_TREE_SCAN,NMAP_UDP_SCAN,1,NMAP_XMAS_TREE_SCAN,302,1,0.331126,3.225806
+Random Forest,Thing_Speak,NMAP_UDP_SCAN,1,Thing_Speak,1147,15,0.087184,3.225806
+Random Forest,Wipro_bulb,Thing_Speak,1,Wipro_bulb,33,1,3.030303,3.225806

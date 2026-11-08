@@ -37,6 +37,12 @@ RT-IoT2022-ML/
 │   └── 04_random_forest_training/
 │       ├── figures/
 │       └── tables/
+│   └── 05_mlp_training/
+│       ├── figures/
+│       └── tables/
+│   └── 06_evaluation/
+│       ├── figures/
+│       └── tables/
 ├── requirements.txt
 ├── config.yaml
 └── README.md

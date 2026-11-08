@@ -1,0 +1,24 @@
+model,actual,predicted,error_count
+MLP 100 epochs,ARP_poisioning,Thing_Speak,21
+MLP 100 epochs,DDOS_Slowloris,NMAP_UDP_SCAN,12
+MLP 100 epochs,Thing_Speak,ARP_poisioning,12
+MLP 100 epochs,NMAP_UDP_SCAN,Thing_Speak,3
+MLP 100 epochs,NMAP_UDP_SCAN,ARP_poisioning,2
+MLP 100 epochs,ARP_poisioning,DDOS_Slowloris,1
+MLP 100 epochs,ARP_poisioning,NMAP_TCP_scan,1
+MLP 100 epochs,ARP_poisioning,Wipro_bulb,1
+MLP 100 epochs,MQTT_Publish,ARP_poisioning,1
+MLP 100 epochs,NMAP_FIN_SCAN,ARP_poisioning,1
+MLP 100 epochs,NMAP_XMAS_TREE_SCAN,Thing_Speak,1
+MLP 100 epochs,Wipro_bulb,ARP_poisioning,1
+MLP 100 epochs,Wipro_bulb,MQTT_Publish,1
+MLP 100 epochs,Wipro_bulb,Thing_Speak,1
+Random Forest,Thing_Speak,ARP_poisioning,14
+Random Forest,ARP_poisioning,Thing_Speak,4
+Random Forest,DDOS_Slowloris,NMAP_UDP_SCAN,4
+Random Forest,NMAP_UDP_SCAN,ARP_poisioning,4
+Random Forest,MQTT_Publish,Thing_Speak,1
+Random Forest,NMAP_FIN_SCAN,ARP_poisioning,1
+Random Forest,NMAP_XMAS_TREE_SCAN,NMAP_UDP_SCAN,1
+Random Forest,Thing_Speak,NMAP_UDP_SCAN,1
+Random Forest,Wipro_bulb,Thing_Speak,1
