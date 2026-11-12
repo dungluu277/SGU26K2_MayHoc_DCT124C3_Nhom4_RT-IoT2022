@@ -1,0 +1,1 @@
+Trong đây chỉ chứ code ipynb, trong quá trình làm sẽ có chạy output của code nhưng sau đó hãy xóa hết output đi, chỉ để lại mỗi code để khi người nghiệm, người khác sẽ lấy bất kỳ file code nào để chạy
