@@ -1,0 +1,3 @@
+Trong đây sẽ thể hiện nhật ký chạy của từng thực nghiệm:
+Mỗi một lần chạy một thực nghiệm sẽ tạo ra 1 folder, trong folder đó sẽ chưa: ảnh khi chạy thực nghiệm(png) ; file code ipynb ; file html để thể hiện nhật ký chạy, có ngày tháng chạy ở tên html (có feedback, có kết quả chạy); có hình tự vẽ bằng ppt (nếu có), có file excel thể hiện kết quả chạy (tự làm bằng tay với mỗi lần chạy thực nghiệm)
+https://drive.google.com/drive/folders/1k-q-cuTi3Rb_eYnrmfmrr_6-C35j7M6K (file excel trình bày theo mẫu của thầy)

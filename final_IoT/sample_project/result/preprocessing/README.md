@@ -1,0 +1,2 @@
+Trong đây sẽ thể hiện nhật ký chạy của từng flie tiền xử lý dữ liệu:
+Mỗi một lần chạy một file tiền xử lý dữ liệu sẽ tạo ra 1 folder, trong folder đó sẽ chứa: ảnh khi chạy (png) ; file code ipynb ; file html để thể hiện nhật ký chạy, có ngày tháng chạy ở tên html (có feedback, có kết quả chạy); có hình tự vẽ bằng ppt (nếu có), có file excel thể hiện kết quả chạy (tự làm bằng tay với mỗi lần chạy thực nghiệm)
