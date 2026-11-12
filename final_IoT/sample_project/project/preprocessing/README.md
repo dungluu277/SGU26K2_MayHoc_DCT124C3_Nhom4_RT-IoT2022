@@ -1,0 +1,1 @@
+folder này chỉ lưu file ipynb của tất cả các lần tiền xử lý dữ liệu cho từng lần thực nghiệm
