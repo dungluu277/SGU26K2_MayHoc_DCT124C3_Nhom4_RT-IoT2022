@@ -1,0 +1,2 @@
+﻿experiment_id,family,variant,n_train,n_valid,accuracy,macro_f1,weighted_f1,macro_precision,macro_recall,full_train_accuracy,full_train_macro_f1,full_train_weighted_f1,full_train_macro_precision,full_train_macro_recall,tree_depth,n_leaves,fit_seconds,predict_seconds
+E01,DT,baseline,82536,17686,0.9976817822006107,0.9746036688481148,0.9976788388005116,0.9867189709219337,0.9654686171919824,1.0,1.0,1.0,1.0,1.0,20,219,2.3973473000805825,0.05635900003835559
