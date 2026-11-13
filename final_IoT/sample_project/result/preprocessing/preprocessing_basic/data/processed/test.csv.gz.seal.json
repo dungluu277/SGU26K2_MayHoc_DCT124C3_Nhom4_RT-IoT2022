@@ -1,0 +1,7 @@
+{
+  "file": "test.csv.gz",
+  "sha256": "c9e6a0e9423dfef03f45fa2f412b8788e99d9bc3956c416c4505c13d28499a6a",
+  "rows": 17687,
+  "columns": 83,
+  "sealed": true
+}

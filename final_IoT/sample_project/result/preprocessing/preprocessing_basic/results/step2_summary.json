@@ -1,0 +1,43 @@
+{
+  "source_file": "RT_IOT2022.csv",
+  "source_sha256": "956956c09c1764584fa08acd0f6876475626bcedcd6a6b1f8c492c2e9a2089ea",
+  "raw_rows": 123117,
+  "raw_columns": 85,
+  "removed_columns": [
+    "Unnamed: 0",
+    "bwd_URG_flag_count"
+  ],
+  "exact_duplicate_rows_removed": 5195,
+  "conflicting_feature_groups_removed": 6,
+  "conflicting_rows_removed": 13,
+  "clean_rows": 117909,
+  "clean_columns": 83,
+  "target": "Attack_type",
+  "classes": [
+    "ARP_poisioning",
+    "DDOS_Slowloris",
+    "DOS_SYN_Hping",
+    "MQTT_Publish",
+    "Metasploit_Brute_Force_SSH",
+    "NMAP_FIN_SCAN",
+    "NMAP_OS_DETECTION",
+    "NMAP_TCP_scan",
+    "NMAP_UDP_SCAN",
+    "NMAP_XMAS_TREE_SCAN",
+    "Thing_Speak",
+    "Wipro_bulb"
+  ],
+  "split": {
+    "train": 82536,
+    "validation": 17686,
+    "test": 17687,
+    "random_state": 42,
+    "stratified": true
+  },
+  "cross_split_duplicate_feature_hashes": {
+    "train_validation": 0,
+    "train_test": 0,
+    "validation_test": 0
+  },
+  "note": "No imputation, scaling, one-hot encoding, resampling or feature selection performed at Step 2."
+}

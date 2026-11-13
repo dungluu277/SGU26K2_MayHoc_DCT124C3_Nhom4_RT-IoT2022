@@ -1,0 +1,1 @@
+chỉ lưu ile ipynb các mô hình baseline cơ bản, mỗi mô hình baseline sẽ có nhiều file ipynb để thẻ hiện quá trình làm chứ không chỉ có đúng 1 file baseline cuối cùng
