@@ -1,0 +1,13 @@
+{
+    "source_file": "RT_IOT2022_clean_ThanhDai.csv",
+    "random_state": 42,
+    "method": "StratifiedShuffleSplit",
+    "stratify_column": "Attack_type",
+    "train_ratio": 0.7,
+    "validation_ratio": 0.15,
+    "unallocated_ratio": 0.15,
+    "original_rows": 117909,
+    "train_rows": 82536,
+    "validation_rows": 17687,
+    "unallocated_rows": 17686
+}

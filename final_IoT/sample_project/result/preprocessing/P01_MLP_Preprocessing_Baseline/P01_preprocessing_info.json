@@ -1,0 +1,18 @@
+{
+    "experiment": "P01_MLP_Preprocessing_Baseline",
+    "target": "Attack_type",
+    "numeric_method": "StandardScaler",
+    "categorical_method": "OneHotEncoder",
+    "categorical_features": [
+        "proto",
+        "service"
+    ],
+    "numeric_feature_count": 80,
+    "input_feature_count": 82,
+    "output_feature_count": 92,
+    "train_samples": 82536,
+    "validation_samples": 17687,
+    "oversampling": false,
+    "feature_selection": false,
+    "test_used": false
+}
