@@ -33,3 +33,11 @@
     </tr>
   </tbody>
 </table>
+
+
+### Link drive minh chứng chạy thực nghiệm: https://drive.google.com/drive/folders/1dZ6BlL46RooJ-FnvvnCHD0tSNdVDdFsu?usp=drive_link
+
+### Link google docs: https://docs.google.com/document/d/10iYZxoF4KZjpvoaexhOCCcAlMnjlhGNXDbLvKk89F0g/edit?usp=sharing
+
+## Link phân công công việc nhóm: https://docs.google.com/spreadsheets/d/1anzJYDVXp3kiWoB7VXHo2T5IlKezRM_1/edit?usp=sharing&ouid=114781297964179421782&rtpof=true&sd=true
+
