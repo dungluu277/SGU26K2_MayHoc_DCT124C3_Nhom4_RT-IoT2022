@@ -2,6 +2,10 @@
   "experiment": "E11",
   "compare_id": "E10",
   "model": "MLPClassifier",
+  "data_source": "result/preprocessing/E11_MLP_NoScaler_Processing/data",
+  "preprocessing_notebook": "E11_MLP_NoScaler_Processing.ipynb",
+  "train_path": "D:\\SGU26K2_MayHoc_DCT124C3_Nhom4_RT-IoT2022\\final_IoT\\sample_project\\result\\preprocessing\\E11_MLP_NoScaler_Processing\\data\\train.csv.gz",
+  "validation_path": "D:\\SGU26K2_MayHoc_DCT124C3_Nhom4_RT-IoT2022\\final_IoT\\sample_project\\result\\preprocessing\\E11_MLP_NoScaler_Processing\\data\\validation.csv.gz",
   "numeric_scaler": "none (passthrough)",
   "categorical_encoder": "OneHotEncoder",
   "hidden_layer_sizes": [
@@ -18,7 +22,7 @@
   "random_state": 42,
   "cv_folds": 3,
   "train_samples": 82536,
-  "validation_samples": 17687,
+  "validation_samples": 17686,
   "classes": [
     "ARP_poisioning",
     "DDOS_Slowloris",
