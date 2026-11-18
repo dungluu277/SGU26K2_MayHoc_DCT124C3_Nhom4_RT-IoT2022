@@ -1,0 +1,42 @@
+{
+  "experiment": "E10_MLP_Baseline",
+  "train_path": "C:\\homework\\Machine Learning\\SGU26K2_MayHoc_DCT124C3_Nhom4_RT-IoT2022\\final_IoT\\sample_project\\data\\splitted data\\train.csv",
+  "validation_path": "C:\\homework\\Machine Learning\\SGU26K2_MayHoc_DCT124C3_Nhom4_RT-IoT2022\\final_IoT\\sample_project\\data\\splitted data\\validation.csv",
+  "cross_validation": {
+    "method": "StratifiedKFold",
+    "folds": 3,
+    "data": "chỉ tập Train có sẵn"
+  },
+  "test_used": false,
+  "target": "Attack_type",
+  "numeric_method": "StandardScaler",
+  "categorical_method": "OneHotEncoder",
+  "categorical_features": [
+    "proto",
+    "service"
+  ],
+  "train_samples": 82536,
+  "validation_samples": 17686,
+  "classes": [
+    "ARP_poisioning",
+    "DDOS_Slowloris",
+    "DOS_SYN_Hping",
+    "MQTT_Publish",
+    "Metasploit_Brute_Force_SSH",
+    "NMAP_FIN_SCAN",
+    "NMAP_OS_DETECTION",
+    "NMAP_TCP_scan",
+    "NMAP_UDP_SCAN",
+    "NMAP_XMAS_TREE_SCAN",
+    "Thing_Speak",
+    "Wipro_bulb"
+  ],
+  "hidden_layer_sizes": [
+    64
+  ],
+  "max_iter": 60,
+  "epochs_trained": 60,
+  "cv_macro_f1_mean": 0.9459258454760217,
+  "training_seconds": 42.886606300016865,
+  "random_state": 42
+}
