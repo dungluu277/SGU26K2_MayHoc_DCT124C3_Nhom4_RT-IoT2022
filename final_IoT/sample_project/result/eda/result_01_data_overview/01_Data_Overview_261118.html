@@ -7766,12 +7766,11 @@ Thư mục lưu kết quả: C:\homework\Machine Learning\SGU26K2_MayHoc_DCT124C
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Nh%E1%BA%ADn-x%C3%A9t:-T%E1%BB%95ng-quan-d%E1%BB%AF-li%E1%BB%87u">Nhận xét: Tổng quan dữ liệu<a class="anchor-link" href="#Nh%E1%BA%ADn-x%C3%A9t:-T%E1%BB%95ng-quan-d%E1%BB%AF-li%E1%BB%87u">¶</a></h3><ul>
-<li>Bộ dữ liệu RT_IOT2022 gồm <strong>123.117 bản ghi và 85 thuộc tính</strong>.</li>
-<li>Các thuộc tính mô tả những đặc điểm liên quan đến lưu lượng mạng IoT.</li>
-<li>Dữ liệu bao gồm các thông tin về giao thức mạng, dịch vụ, thời gian và thống kê gói tin.</li>
-</ul>
-<p><strong>Kết luận:</strong> Bộ dữ liệu có quy mô tương đối lớn và nhiều thuộc tính, cần tiếp tục phân tích chất lượng dữ liệu, phân bố đặc trưng và phân bố nhãn trước khi xây dựng mô hình.</p>
+<p>Nhận xét: Tổng quan dữ liệu</p>
+<p>Bộ dữ liệu RT_IOT2022 gồm 123.117 bản ghi và 85 thuộc tính.
+Các thuộc tính mô tả những đặc điểm liên quan đến lưu lượng mạng IoT.
+Dữ liệu bao gồm các thông tin về giao thức mạng, dịch vụ, thời gian và thống kê gói tin.</p>
+<p>Kết luận: Bộ dữ liệu có quy mô tương đối lớn và nhiều thuộc tính, cần tiếp tục phân tích chất lượng dữ liệu, phân bố đặc trưng và phân bố nhãn trước khi xây dựng mô hình.</p>
 </div>
 </div>
 </div>
@@ -8052,14 +8051,13 @@ Name: count, dtype: int64
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Nh%E1%BA%ADn-x%C3%A9t:-Ki%E1%BB%83u-d%E1%BB%AF-li%E1%BB%87u-v%C3%A0-thu%E1%BB%99c-t%C3%ADnh">Nhận xét: Kiểu dữ liệu và thuộc tính<a class="anchor-link" href="#Nh%E1%BA%ADn-x%C3%A9t:-Ki%E1%BB%83u-d%E1%BB%AF-li%E1%BB%87u-v%C3%A0-thu%E1%BB%99c-t%C3%ADnh">¶</a></h3><ul>
-<li>Bộ dữ liệu có <strong>82 thuộc tính dạng số</strong> và <strong>3 thuộc tính dạng object</strong>.</li>
-<li>Các thuộc tính dạng object gồm <code>proto</code>, <code>service</code> và <code>Attack_type</code>.</li>
-<li><code>Attack_type</code> là nhãn mục tiêu của bài toán phân loại.</li>
-<li>Phát hiện thuộc tính <code>bwd_URG_flag_count</code> chỉ chứa một giá trị duy nhất.</li>
-<li>Cột <code>Unnamed: 0</code> có khả năng là chỉ số được tạo khi xuất dữ liệu ra CSV.</li>
-</ul>
-<p><strong>Kết luận:</strong> Cần xem xét mã hóa các đặc trưng phân loại <code>proto</code> và <code>service</code>, đồng thời xem xét loại bỏ cột hằng và cột chỉ số trong giai đoạn tiền xử lý.</p>
+<p>Nhận xét: Kiểu dữ liệu và thuộc tính</p>
+<p>Bộ dữ liệu có 82 thuộc tính dạng số và 3 thuộc tính dạng object.
+Các thuộc tính dạng object gồm proto, service và Attack_type.
+Attack_type là nhãn mục tiêu của bài toán phân loại.
+Phát hiện thuộc tính bwd_URG_flag_count chỉ chứa một giá trị duy nhất.
+Cột Unnamed: 0 có khả năng là chỉ số được tạo khi xuất dữ liệu ra CSV.</p>
+<p>Kết luận: Cần xem xét mã hóa các đặc trưng phân loại proto và service, đồng thời xem xét loại bỏ cột hằng và cột chỉ số trong giai đoạn tiền xử lý.</p>
 </div>
 </div>
 </div>
@@ -8169,20 +8167,17 @@ Tổng giá trị thiếu: 0
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Nh%E1%BA%ADn-x%C3%A9t:-Ch%E1%BA%A5t-l%C6%B0%E1%BB%A3ng-d%E1%BB%AF-li%E1%BB%87u">Nhận xét: Chất lượng dữ liệu<a class="anchor-link" href="#Nh%E1%BA%ADn-x%C3%A9t:-Ch%E1%BA%A5t-l%C6%B0%E1%BB%A3ng-d%E1%BB%AF-li%E1%BB%87u">¶</a></h3><ul>
-<li><strong>Giá trị thiếu:</strong> Không phát hiện giá trị thiếu.</li>
-<li><strong>Giá trị vô hạn:</strong> Không phát hiện giá trị Inf.</li>
-<li><strong>Dữ liệu trùng lặp:</strong> Khi xét toàn bộ 85 thuộc tính, không phát hiện dòng trùng hoàn toàn.</li>
-<li>Khi không xét cột <code>Unnamed: 0</code>, phát hiện <strong>5.195 dòng trùng lặp</strong>.</li>
-<li><strong>Thuộc tính hằng:</strong> Phát hiện <code>bwd_URG_flag_count</code> chỉ có một giá trị duy nhất.</li>
-</ul>
-<p><strong>Kết luận:</strong></p>
-<ul>
-<li>Bộ dữ liệu không cần xử lý giá trị thiếu hoặc vô hạn ở thời điểm khảo sát.</li>
-<li>Cần xem xét loại bỏ các bản ghi trùng lặp trong giai đoạn Data Cleaning.</li>
-<li>Cần xem xét loại bỏ các thuộc tính không mang thông tin phân biệt.</li>
-<li>Chưa thực hiện thay đổi dữ liệu trong giai đoạn EDA.</li>
-</ul>
+<p>Nhận xét: Chất lượng dữ liệu</p>
+<p>Giá trị thiếu: Không phát hiện giá trị thiếu.
+Giá trị vô hạn: Không phát hiện giá trị Inf.
+Dữ liệu trùng lặp: Khi xét toàn bộ 85 thuộc tính, không phát hiện dòng trùng hoàn toàn.
+Khi không xét cột Unnamed: 0, phát hiện 5.195 dòng trùng lặp.
+Thuộc tính hằng: Phát hiện bwd_URG_flag_count chỉ có một giá trị duy nhất.</p>
+<p>Kết luận:</p>
+<p>Bộ dữ liệu không cần xử lý giá trị thiếu hoặc vô hạn ở thời điểm khảo sát.
+Cần xem xét loại bỏ các bản ghi trùng lặp trong giai đoạn Data Cleaning.
+Cần xem xét loại bỏ các thuộc tính không mang thông tin phân biệt.
+Chưa thực hiện thay đổi dữ liệu trong giai đoạn EDA.</p>
 </div>
 </div>
 </div>
@@ -8835,38 +8830,39 @@ Số lượng: 16
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Nh%E1%BA%ADn-x%C3%A9t:-Th%E1%BB%91ng-k%C3%AA-m%C3%B4-t%E1%BA%A3">Nhận xét: Thống kê mô tả<a class="anchor-link" href="#Nh%E1%BA%ADn-x%C3%A9t:-Th%E1%BB%91ng-k%C3%AA-m%C3%B4-t%E1%BA%A3">¶</a></h3><p><strong>1. Phân phối dữ liệu</strong></p>
-<ul>
-<li>Phát hiện 65 thuộc tính số có độ lệch tuyệt đối
-(|Skewness|) lớn hơn 3.</li>
-<li>Một số thuộc tính như <code>bwd_bulk_bytes</code>,
-<code>bwd_bulk_packets</code>, <code>active.std</code> có độ lệch phải
-rất lớn.</li>
-<li>Điều này cho thấy nhiều đặc trưng không có
+<p>Nhận xét: Thống kê mô tả</p>
+<ol>
+<li>Phân phối dữ liệu</li>
+</ol>
+<p>Phát hiện 65 thuộc tính số có độ lệch tuyệt đối
+(|Skewness|) lớn hơn 3.
+Một số thuộc tính như bwd_bulk_bytes,
+bwd_bulk_packets, active.std có độ lệch phải
+rất lớn.
+Điều này cho thấy nhiều đặc trưng không có
 phân phối đối xứng, phần lớn giá trị tập trung
-ở vùng thấp và có một số giá trị rất lớn.</li>
-</ul>
-<p><strong>2. Đặc trưng chứa nhiều giá trị bằng 0</strong></p>
-<ul>
-<li>Phát hiện 16 thuộc tính có ít nhất 95%
-giá trị bằng 0.</li>
-<li><code>flow_CWR_flag_count</code> có khoảng 99,94%
-giá trị bằng 0.</li>
-<li><code>fwd_bulk_bytes</code> có khoảng 99,80%
-giá trị bằng 0.</li>
-<li><code>bwd_URG_flag_count</code> có 100% giá trị bằng 0.</li>
-</ul>
-<p><strong>3. Thang đo dữ liệu</strong></p>
-<ul>
-<li>Các đặc trưng có phạm vi giá trị khác nhau
-đáng kể.</li>
-<li>Ví dụ, <code>flow_duration</code> có giá trị lớn nhất
-khoảng 21.728, trong khi <code>flow_iat.tot</code>
-có giá trị lớn nhất trên 21 tỷ.</li>
-<li>Sự khác biệt thang đo có thể ảnh hưởng
-đến quá trình học của MLP.</li>
-</ul>
-<p><strong>Kết luận:</strong> Dataset có nhiều đặc trưng phân phối
+ở vùng thấp và có một số giá trị rất lớn.</p>
+<ol start="2">
+<li>Đặc trưng chứa nhiều giá trị bằng 0</li>
+</ol>
+<p>Phát hiện 16 thuộc tính có ít nhất 95%
+giá trị bằng 0.
+flow_CWR_flag_count có khoảng 99,94%
+giá trị bằng 0.
+fwd_bulk_bytes có khoảng 99,80%
+giá trị bằng 0.
+bwd_URG_flag_count có 100% giá trị bằng 0.</p>
+<ol start="3">
+<li>Thang đo dữ liệu</li>
+</ol>
+<p>Các đặc trưng có phạm vi giá trị khác nhau
+đáng kể.
+Ví dụ, flow_duration có giá trị lớn nhất
+khoảng 21.728, trong khi flow_iat.tot
+có giá trị lớn nhất trên 21 tỷ.
+Sự khác biệt thang đo có thể ảnh hưởng
+đến quá trình học của MLP.</p>
+<p>Kết luận: Dataset có nhiều đặc trưng phân phối
 lệch và thang đo không đồng nhất. Đây là những
 vấn đề cần được phân tích sâu hơn trước khi
 xây dựng pipeline tiền xử lý.</p>
@@ -9080,17 +9076,16 @@ Tỷ lệ mất cân bằng: 3380.68:1
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Nh%E1%BA%ADn-x%C3%A9t:-Ph%C3%A2n-b%E1%BB%91-nh%C3%A3n-m%E1%BB%A5c-ti%C3%AAu">Nhận xét: Phân bố nhãn mục tiêu<a class="anchor-link" href="#Nh%E1%BA%ADn-x%C3%A9t:-Ph%C3%A2n-b%E1%BB%91-nh%C3%A3n-m%E1%BB%A5c-ti%C3%AAu">¶</a></h3><ul>
-<li>Dataset gồm 12 lớp thuộc tính <code>Attack_type</code>.</li>
-<li>Phân bố số lượng mẫu giữa các lớp không đồng đều.</li>
-<li>Lớp <code>DOS_SYN_Hping</code> chiếm phần lớn dữ liệu,
-với 94.659 mẫu, tương đương khoảng 76,89%.</li>
-<li>Lớp <code>NMAP_FIN_SCAN</code> chỉ có 28 mẫu.</li>
-<li>Lớp <code>Metasploit_Brute_Force_SSH</code> chỉ có 37 mẫu.</li>
-<li>Tỷ lệ giữa lớp nhiều mẫu nhất và ít mẫu nhất
-khoảng 3.380,68:1.</li>
-</ul>
-<p><strong>Kết luận:</strong> Mất cân bằng lớp là một vấn đề
+<p>Nhận xét: Phân bố nhãn mục tiêu</p>
+<p>Dataset gồm 12 lớp thuộc tính Attack_type.
+Phân bố số lượng mẫu giữa các lớp không đồng đều.
+Lớp DOS_SYN_Hping chiếm phần lớn dữ liệu,
+với 94.659 mẫu, tương đương khoảng 76,89%.
+Lớp NMAP_FIN_SCAN chỉ có 28 mẫu.
+Lớp Metasploit_Brute_Force_SSH chỉ có 37 mẫu.
+Tỷ lệ giữa lớp nhiều mẫu nhất và ít mẫu nhất
+khoảng 3.380,68:1.</p>
+<p>Kết luận: Mất cân bằng lớp là một vấn đề
 quan trọng cần xem xét trong quá trình xây dựng
 và đánh giá mô hình MLP.</p>
 </div>
@@ -9542,9 +9537,6 @@ và đánh giá mô hình MLP.</p>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>
-Đã xuất workbook bằng chứng: C:\homework\Machine Learning\SGU26K2_MayHoc_DCT124C3_Nhom4_RT-IoT2022\final_IoT\sample_project\result\eda\result_01_data_overview\01_Data_Overview_Evidence.xlsx
-</pre>
 </div>
 </div>
 </div>

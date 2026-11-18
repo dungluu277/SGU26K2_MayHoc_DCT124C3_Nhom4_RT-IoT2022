@@ -1,1 +1,0 @@
-file này chỉ lưu file code của eda, cụ thể là ae làm có bao nhiêu code eda.ipynb sẽ bỏ hết vô đây để quản lý các file code eda
