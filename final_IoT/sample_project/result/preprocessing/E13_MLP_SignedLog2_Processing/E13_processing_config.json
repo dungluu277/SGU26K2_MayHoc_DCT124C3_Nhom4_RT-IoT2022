@@ -1,8 +1,8 @@
 {
   "experiment": "E13",
   "preprocessing_notebook": "E13_MLP_SignedLog2_Processing.ipynb",
-  "source_train": "D:\\SGU26K2_MayHoc_DCT124C3_Nhom4_RT-IoT2022\\final_IoT\\sample_project\\splitted data\\train.csv",
-  "source_validation": "D:\\SGU26K2_MayHoc_DCT124C3_Nhom4_RT-IoT2022\\final_IoT\\sample_project\\splitted data\\validation.csv",
+  "source_train": "D:\\SGU26K2_MayHoc_DCT124C3_Nhom4_RT-IoT2022\\final_IoT\\sample_project\\data\\splitted data\\train.csv",
+  "source_validation": "D:\\SGU26K2_MayHoc_DCT124C3_Nhom4_RT-IoT2022\\final_IoT\\sample_project\\data\\splitted data\\validation.csv",
   "processed_train": "D:\\SGU26K2_MayHoc_DCT124C3_Nhom4_RT-IoT2022\\final_IoT\\sample_project\\result\\preprocessing\\E13_MLP_SignedLog2_Processing\\data\\train.csv.gz",
   "processed_validation": "D:\\SGU26K2_MayHoc_DCT124C3_Nhom4_RT-IoT2022\\final_IoT\\sample_project\\result\\preprocessing\\E13_MLP_SignedLog2_Processing\\data\\validation.csv.gz",
   "numeric_features": [
