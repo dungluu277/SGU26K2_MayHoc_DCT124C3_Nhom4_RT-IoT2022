@@ -476,7 +476,7 @@ display(per_class_metrics.round(6))</pre><div class="output"><table>
 <td>33</td>
 </tr>
 </tbody>
-</table></div><p class="note"><strong>Nhận xét:</strong> CV: Macro-F1 trung bình 0,957725 (độ lệch chuẩn 0,010829), Macro-Recall 0,960210 (độ lệch chuẩn 0,021048). Validation: Macro-F1 0,979298 và Macro-Recall 0,967008. Macro-F1 Train đạt 1,0, cao hơn CV; cần lưu ý khoảng cách này.</p></section><section id="E06_RF"><h2>E06 — Random Forest</h2><h3>Cross-validation 3-fold trên tập train</h3><pre>cv = StratifiedKFold(n_splits=3, shuffle=True, random_state=RANDOM_STATE)
+</table></div><p class="note"><strong>Nhận xét:</strong> CV: Macro-F1 trung bình 0,957725 (độ lệch chuẩn 0,010829), Macro-Recall 0,960210 (độ lệch chuẩn 0,021048). Validation: Macro-F1 0,979298 và Macro-Recall 0,967008. Macro-F1 Train đạt 1,0, cao hơn CV, cần lưu ý khoảng cách này.</p></section><section id="E06_RF"><h2>E06 — Random Forest</h2><h3>Cross-validation 3-fold trên tập train</h3><pre>cv = StratifiedKFold(n_splits=3, shuffle=True, random_state=RANDOM_STATE)
 
 scoring = {
     "accuracy": "accuracy",
