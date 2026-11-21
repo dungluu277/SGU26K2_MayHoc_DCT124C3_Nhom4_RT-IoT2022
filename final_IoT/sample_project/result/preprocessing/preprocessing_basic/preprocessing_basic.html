@@ -7746,7 +7746,7 @@ SHA-256: 956956c09c1764584fa08acd0f6876475626bcedcd6a6b1f8c492c2e9a2089ea
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Nh%E1%BA%ADn-x%C3%A9t-k%E1%BA%BFt-qu%E1%BA%A3">Nhận xét kết quả<a class="anchor-link" href="#Nh%E1%BA%ADn-x%C3%A9t-k%E1%BA%BFt-qu%E1%BA%A3">¶</a></h4><p>Dữ liệu gốc có 123.117 dòng và 85 cột. Có 12 lớp trong cột nhãn <code>Attack_type</code>; không phát hiện giá trị thiếu ở toàn bộ dữ liệu. Nhãn không đồng đều rõ rệt: <code>DOS_SYN_Hping</code> chiếm phần lớn, trong khi một số lớp như <code>NMAP_FIN_SCAN</code> và <code>Metasploit_Brute_Force_SSH</code> có rất ít mẫu. Vì thế, kết quả mô hình sau này cần được đánh giá bằng Macro-F1, F1 từng lớp hoặc các phép đo tương đương thay vì chỉ nhìn Accuracy.</p>
+<h4 id="Nh%E1%BA%ADn-x%C3%A9t-k%E1%BA%BFt-qu%E1%BA%A3">Nhận xét kết quả<a class="anchor-link" href="#Nh%E1%BA%ADn-x%C3%A9t-k%E1%BA%BFt-qu%E1%BA%A3">¶</a></h4><p>Dữ liệu gốc có 123.117 dòng và 85 cột. Có 12 lớp trong cột nhãn <code>Attack_type</code>, không phát hiện giá trị thiếu ở toàn bộ dữ liệu. Nhãn không đồng đều rõ rệt: <code>DOS_SYN_Hping</code> chiếm phần lớn, trong khi một số lớp như <code>NMAP_FIN_SCAN</code> và <code>Metasploit_Brute_Force_SSH</code> có rất ít mẫu. Vì thế, kết quả mô hình sau này cần được đánh giá bằng Macro-F1, F1 từng lớp hoặc các phép đo tương đương thay vì chỉ nhìn Accuracy.</p>
 </div>
 </div>
 </div>
@@ -8772,7 +8772,7 @@ Test: (17687, 83) (15.00%)
 <h3 id="12.-K%E1%BA%BFt-lu%E1%BA%ADn">12. Kết luận<a class="anchor-link" href="#12.-K%E1%BA%BFt-lu%E1%BA%ADn">¶</a></h3><p>Bước tiền xử lý cơ bản đã loại các cột không mang thông tin dự đoán, dòng trùng và các mẫu có nhãn mâu thuẫn. Sau làm sạch còn 117.909 dòng và 83 cột đặc trưng, gồm 12 lớp tấn công.</p>
 <p>Dữ liệu được chia theo tỷ lệ 70/15/15 bằng phương pháp phân tầng. Tập Train có 82.536 dòng, Validation có 17.686 dòng và Test có 17.687 dòng. Kết quả kiểm tra không phát hiện vector đặc trưng trùng giữa các tập.</p>
 <p>Không thực hiện chuẩn hóa, mã hóa danh mục, cân bằng dữ liệu hay loại outlier trong giai đoạn này. Việc làm này giữ dữ liệu gần với bản gốc, còn cho phép các mô hình Random Forest và MLP sử dụng riêng cấu hình tiền xử lý phù hợp ở bước sau.
-Cần lưu ý rằng dữ liệu lệch mạnh về nhãn <code>DOS_SYN_Hping</code>. Trong bước huấn luyện, ngoài Accuracy cần theo dõi Macro-F1, Weighted-F1 và các chỉ số Precision/Recall của từng lớp. Ngoài ra, kiểm tra rò rỉ hiện tại chỉ xét bản ghi trùng; nếu dữ liệu có quan hệ theo thiết bị hoặc phiên mạng, cần thêm kiểm tra rò rỉ theo nhóm trong các giai đoạn tiếp theo.</p>
+Cần lưu ý rằng dữ liệu lệch mạnh về nhãn <code>DOS_SYN_Hping</code>. Trong bước huấn luyện, ngoài Accuracy cần theo dõi Macro-F1, Weighted-F1 và các chỉ số Precision/Recall của từng lớp. Ngoài ra, kiểm tra rò rỉ hiện tại chỉ xét bản ghi trùng, nếu dữ liệu có quan hệ theo thiết bị hoặc phiên mạng, cần thêm kiểm tra rò rỉ theo nhóm trong các giai đoạn tiếp theo.</p>
 </div>
 </div>
 </div>

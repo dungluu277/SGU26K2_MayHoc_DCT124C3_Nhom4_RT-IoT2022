@@ -7529,7 +7529,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput reviewer-comment" data-mime-type="text/markdown"><p>Nhận xét: Thư viện openpyxl được nạp để hỗ trợ ghi bảng tính Excel ở các bước xuất kết quả. Ô này không tạo chỉ số mô hình; nếu không có output hiển thị thì đó là bình thường đối với một lệnh import.</p></div>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput reviewer-comment" data-mime-type="text/markdown"><p>Nhận xét: Thư viện openpyxl được nạp để hỗ trợ ghi bảng tính Excel ở các bước xuất kết quả. Ô này không tạo chỉ số mô hình, nếu không có output hiển thị thì đó là bình thường đối với một lệnh import.</p></div>
 </div>
 </div>
 </div>
@@ -7944,7 +7944,7 @@ Số lớp: 12
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput reviewer-comment" data-mime-type="text/markdown"><p>Nhận xét: Tách nhãn Attack_type khỏi đặc trưng cho thấy có 80 biến số, 2 biến phân loại và 12 lớp. DOS_SYN_Hping có 63.062 mẫu Train trong khi NMAP_FIN_SCAN có 20; mất cân bằng lớn này khiến macro-F1 và bảng theo lớp cần được xem cùng accuracy.</p></div>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput reviewer-comment" data-mime-type="text/markdown"><p>Nhận xét: Tách nhãn Attack_type khỏi đặc trưng cho thấy có 80 biến số, 2 biến phân loại và 12 lớp. DOS_SYN_Hping có 63.062 mẫu Train trong khi NMAP_FIN_SCAN có 20, mất cân bằng lớn này khiến macro-F1 và bảng theo lớp cần được xem cùng accuracy.</p></div>
 </div>
 </div>
 </div>
@@ -8065,7 +8065,7 @@ Pipeline(steps=[('preprocess',
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput reviewer-comment" data-mime-type="text/markdown"><p>Nhận xét: Pipeline chuẩn hóa các biến số bằng StandardScaler và one-hot encode proto/service trước MLP. Mạng có một hidden layer 64 nút, dùng Adam và giới hạn 60 vòng lặp; các bước tiền xử lý được đặt trong pipeline để áp dụng nhất quán khi cross-validation và dự đoán Validation.</p></div>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput reviewer-comment" data-mime-type="text/markdown"><p>Nhận xét: Pipeline chuẩn hóa các biến số bằng StandardScaler và one-hot encode proto/service trước MLP. Mạng có một hidden layer 64 nút, dùng Adam và giới hạn 60 vòng lặp, các bước tiền xử lý được đặt trong pipeline để áp dụng nhất quán khi cross-validation và dự đoán Validation.</p></div>
 </div>
 </div>
 </div>
@@ -8333,7 +8333,7 @@ Cross-Validation chỉ sử dụng Train: 82536 dòng
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput reviewer-comment" data-mime-type="text/markdown"><p>Nhận xét: Cross-validation phân tầng 3 fold trên Train cho macro-F1 trung bình 0,9459 với độ lệch chuẩn 0,0103; accuracy trung bình là 0,9956. Output cũng có cảnh báo mô hình chạm giới hạn 60 iterations mà chưa hội tụ. Vì vậy các điểm hiện tại là kết quả tại giới hạn cấu hình này, không nên diễn giải như nghiệm tối ưu; nếu thử tăng iterations hoặc đổi cấu hình, cần chọn tham số bằng CV trên Train.</p></div>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput reviewer-comment" data-mime-type="text/markdown"><p>Nhận xét: Cross-validation phân tầng 3 fold trên Train cho macro-F1 trung bình 0,9459 với độ lệch chuẩn 0,0103, accuracy trung bình là 0,9956. Output cũng có cảnh báo mô hình chạm giới hạn 60 iterations mà chưa hội tụ. Vì vậy các điểm hiện tại là kết quả tại giới hạn cấu hình này, không nên diễn giải như nghiệm tối ưu, nếu thử tăng iterations hoặc đổi cấu hình, cần chọn tham số bằng CV trên Train.</p></div>
 </div>
 </div>
 </div>
@@ -8458,7 +8458,7 @@ Loss huấn luyện cuối cùng: 0.009141
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput reviewer-comment" data-mime-type="text/markdown"><p>Nhận xét: Mô hình được fit trên toàn bộ Train rồi đánh giá trên Validation; macro-F1 Validation là 0,9659, accuracy là 0,9960 và weighted-F1 là 0,9960. Train macro-F1 khoảng 0,9640, trong khi CV macro-F1 khoảng 0,9459; khoảng cách này nhỏ hơn Decision Tree nhưng CV có biến động giữa fold. Cảnh báo chưa hội tụ ở giới hạn vòng lặp cũng cần được lưu ý khi so sánh.</p></div>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput reviewer-comment" data-mime-type="text/markdown"><p>Nhận xét: Mô hình được fit trên toàn bộ Train rồi đánh giá trên Validation, macro-F1 Validation là 0,9659, accuracy là 0,9960 và weighted-F1 là 0,9960. Train macro-F1 khoảng 0,9640, trong khi CV macro-F1 khoảng 0,9459, khoảng cách này nhỏ hơn Decision Tree nhưng CV có biến động giữa fold. Cảnh báo chưa hội tụ ở giới hạn vòng lặp cũng cần được lưu ý khi so sánh.</p></div>
 </div>
 </div>
 </div>
@@ -8678,7 +8678,7 @@ Loss huấn luyện cuối cùng: 0.009141
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput reviewer-comment" data-mime-type="text/markdown"><p>Nhận xét: Bảng theo lớp cho thấy NMAP_FIN_SCAN có F1=0,857 với 4 mẫu, Wipro_bulb có F1=0,889 với 33 mẫu và DDOS_Slowloris có F1=0,919 với 80 mẫu. Ma trận nhầm lẫn ghi nhận 71 lỗi; đáng chú ý là 22 mẫu Thing_Speak bị đoán thành ARP_poisioning, 20 mẫu theo chiều ngược lại và 12 mẫu DDOS_Slowloris bị đoán thành NMAP_UDP_SCAN. Các lỗi theo lớp giải thích vì sao macro-F1 thấp hơn weighted-F1.</p></div>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput reviewer-comment" data-mime-type="text/markdown"><p>Nhận xét: Bảng theo lớp cho thấy NMAP_FIN_SCAN có F1=0,857 với 4 mẫu, Wipro_bulb có F1=0,889 với 33 mẫu và DDOS_Slowloris có F1=0,919 với 80 mẫu. Ma trận nhầm lẫn ghi nhận 71 lỗi, đáng chú ý là 22 mẫu Thing_Speak bị đoán thành ARP_poisioning, 20 mẫu theo chiều ngược lại và 12 mẫu DDOS_Slowloris bị đoán thành NMAP_UDP_SCAN. Các lỗi theo lớp giải thích vì sao macro-F1 thấp hơn weighted-F1.</p></div>
 </div>
 </div>
 </div>
@@ -8780,7 +8780,7 @@ Loss huấn luyện cuối cùng: 0.009141
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput reviewer-comment" data-mime-type="text/markdown"><p>Nhận xét: Các bảng CV, chỉ số tổng hợp, kết quả theo lớp, ma trận nhầm lẫn, cấu hình và biểu đồ được lưu vào thư mục baseline để có thể kiểm tra độc lập với phần hiển thị. Kết quả lưu trữ không làm thay đổi điểm số; tập Test vẫn chưa được dùng trong quy trình này.</p></div>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput reviewer-comment" data-mime-type="text/markdown"><p>Nhận xét: Các bảng CV, chỉ số tổng hợp, kết quả theo lớp, ma trận nhầm lẫn, cấu hình và biểu đồ được lưu vào thư mục baseline để có thể kiểm tra độc lập với phần hiển thị. Kết quả lưu trữ không làm thay đổi điểm số, tập Test vẫn chưa được dùng trong quy trình này.</p></div>
 </div>
 </div>
 </div>
@@ -8791,12 +8791,12 @@ Loss huấn luyện cuối cùng: 0.009141
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Nhận xét chi tiết</p>
-<p>Dữ liệu và quy trình. Dữ liệu dùng để đánh giá gồm 82,536 mẫu Train và 17,686 mẫu Validation, cùng 12 lớp. Tập Train có lớp DOS_SYN_Hping lớn nhất với 63,062 mẫu (76.41%), trong khi NMAP_FIN_SCAN ít nhất với 20 mẫu. Tập Validation có 13,513 mẫu DOS_SYN_Hping (76.41%) và chỉ 4 mẫu NMAP_FIN_SCAN. Tỷ lệ lớp lớn nhất/lớp nhỏ nhất lần lượt là 3,153.1:1 ở Train và 3,378.2:1 ở Validation. Cross-validation được thực hiện trên Train; Validation được giữ riêng để đánh giá sau cùng, Test không được dùng.</p>
-<p>Thiết lập mô hình. MLP dùng một hidden layer 64 nút, Adam, tối đa 60 vòng lặp và random_state=42. Đặc trưng số được chuẩn hóa bằng StandardScaler; proto và service được one-hot encode. Ba-fold stratified CV chỉ dùng Train; sau đó mô hình được huấn luyện lại trên toàn bộ Train và đánh giá trên Validation. Cấu hình xác nhận 60 vòng lặp đã chạy.</p>
-<p>Cross-validation. Accuracy trung bình=0.9956 ± 0.0003; macro-F1=0.9459 ± 0.0103; weighted-F1=0.9956; macro-precision=0.9629; macro-recall=0.9386. Độ lệch chuẩn macro-F1 giữa fold là 0.0103, cao hơn Random Forest ở lần chạy này, thể hiện tính biến động fold lớn hơn.</p>
-<p>Train và Validation. Train macro-F1=0.9640; Validation macro-F1=0.9659, chênh lệch Train trừ CV mean là 0.0180. Validation accuracy=0.9960 (99.60%), weighted-F1=0.9960, macro-precision=0.9872, macro-recall=0.9491. Thời gian fit được ghi trong cấu hình là khoảng 42.9 giây.</p>
-<p>Ma trận nhầm lẫn có 17,615/17,686 dự đoán đúng và 71 dự đoán sai. Ba lớp F1 thấp nhất là NMAP_FIN_SCAN: F1=0.857, recall=0.750, support=4; Wipro_bulb: F1=0.889, recall=0.848, support=33; DDOS_Slowloris: F1=0.919, recall=0.850, support=80. Support rất nhỏ của NMAP_FIN_SCAN khiến chỉ số lớp này biến động mạnh; macro-F1 và từng lớp hữu ích hơn accuracy đơn lẻ để nhìn chất lượng trên tập mất cân bằng.</p>
-<p>Kết luận. MLP cho Validation macro-F1=0.9659, thấp hơn Random Forest 0.9810 và Decision Tree 0.9746 trên cùng split. Train/CV gap macro-F1 khoảng 0.018; kết quả chưa cho thấy khoảng cách lớn như Decision Tree, nhưng CV có biến động giữa fold. Cần xem learning curves, kiểm tra lớp hiếm và cân nhắc điều chỉnh class weighting/chiến lược lấy mẫu trong một quy trình chỉ dựa trên Train-CV. Tập Test vẫn chưa được sử dụng.</p>
+<p>Dữ liệu và quy trình. Dữ liệu dùng để đánh giá gồm 82,536 mẫu Train và 17,686 mẫu Validation, cùng 12 lớp. Tập Train có lớp DOS_SYN_Hping lớn nhất với 63,062 mẫu (76.41%), trong khi NMAP_FIN_SCAN ít nhất với 20 mẫu. Tập Validation có 13,513 mẫu DOS_SYN_Hping (76.41%) và chỉ 4 mẫu NMAP_FIN_SCAN. Tỷ lệ lớp lớn nhất/lớp nhỏ nhất lần lượt là 3,153.1:1 ở Train và 3,378.2:1 ở Validation. Cross-validation được thực hiện trên Train, Validation được giữ riêng để đánh giá sau cùng, Test không được dùng.</p>
+<p>Thiết lập mô hình. MLP dùng một hidden layer 64 nút, Adam, tối đa 60 vòng lặp và random_state=42. Đặc trưng số được chuẩn hóa bằng StandardScaler, proto và service được one-hot encode. Ba-fold stratified CV chỉ dùng Train, sau đó mô hình được huấn luyện lại trên toàn bộ Train và đánh giá trên Validation. Cấu hình xác nhận 60 vòng lặp đã chạy.</p>
+<p>Cross-validation. Accuracy trung bình=0.9956 ± 0.0003, macro-F1=0.9459 ± 0.0103, weighted-F1=0.9956, macro-precision=0.9629, macro-recall=0.9386. Độ lệch chuẩn macro-F1 giữa fold là 0.0103, cao hơn Random Forest ở lần chạy này, thể hiện tính biến động fold lớn hơn.</p>
+<p>Train và Validation. Train macro-F1=0.9640, Validation macro-F1=0.9659, chênh lệch Train trừ CV mean là 0.0180. Validation accuracy=0.9960 (99.60%), weighted-F1=0.9960, macro-precision=0.9872, macro-recall=0.9491. Thời gian fit được ghi trong cấu hình là khoảng 42.9 giây.</p>
+<p>Ma trận nhầm lẫn có 17,615/17,686 dự đoán đúng và 71 dự đoán sai. Ba lớp F1 thấp nhất là NMAP_FIN_SCAN: F1=0.857, recall=0.750, support=4, Wipro_bulb: F1=0.889, recall=0.848, support=33, DDOS_Slowloris: F1=0.919, recall=0.850, support=80. Support rất nhỏ của NMAP_FIN_SCAN khiến chỉ số lớp này biến động mạnh, macro-F1 và từng lớp hữu ích hơn accuracy đơn lẻ để nhìn chất lượng trên tập mất cân bằng.</p>
+<p>Kết luận. MLP cho Validation macro-F1=0.9659, thấp hơn Random Forest 0.9810 và Decision Tree 0.9746 trên cùng split. Train/CV gap macro-F1 khoảng 0.018, kết quả chưa cho thấy khoảng cách lớn như Decision Tree, nhưng CV có biến động giữa fold. Cần xem learning curves, kiểm tra lớp hiếm và cân nhắc điều chỉnh class weighting/chiến lược lấy mẫu trong một quy trình chỉ dựa trên Train-CV. Tập Test vẫn chưa được sử dụng.</p>
 </div>
 </div>
 </div>

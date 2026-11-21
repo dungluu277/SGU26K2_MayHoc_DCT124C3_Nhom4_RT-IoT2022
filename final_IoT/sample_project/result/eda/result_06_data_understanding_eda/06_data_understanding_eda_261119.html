@@ -8130,7 +8130,7 @@ Name: count, dtype: int64
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Nhận xét: Sau khi bỏ cột index xuất dữ liệu, có 5,195 dòng trùng chính xác. Phân tích tìm được 6 nhóm đặc trưng giống nhau nhưng mang nhãn khác nhau, gồm 128 dòng liên quan; đây là trường hợp cần kiểm tra nguồn gán nhãn, không nên tự động xóa. Không có giá trị vô cực; bảng nonfinite_counts cho phép đối chiếu từng cột.</p>
+<p>Nhận xét: Sau khi bỏ cột index xuất dữ liệu, có 5,195 dòng trùng chính xác. Phân tích tìm được 6 nhóm đặc trưng giống nhau nhưng mang nhãn khác nhau, gồm 128 dòng liên quan, đây là trường hợp cần kiểm tra nguồn gán nhãn, không nên tự động xóa. Không có giá trị vô cực, bảng nonfinite_counts cho phép đối chiếu từng cột.</p>
 </div>
 </div>
 </div>
@@ -8285,7 +8285,7 @@ Name: count, dtype: int64
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Nhận xét: Tương quan Spearman được tính trên các cột số biến thiên, không bao gồm cột index và cột hằng. Bảng cho thấy 40 cặp tương quan cao nhất; ba cặp đầu có hệ số gần 1 (ví dụ fwd_bulk_bytes với fwd_bulk_rate: 0.999999), cho thấy các đặc trưng có thể mang thông tin dư thừa. Tương quan không chứng minh quan hệ nhân quả.</p>
+<p>Nhận xét: Tương quan Spearman được tính trên các cột số biến thiên, không bao gồm cột index và cột hằng. Bảng cho thấy 40 cặp tương quan cao nhất, ba cặp đầu có hệ số gần 1 (ví dụ fwd_bulk_bytes với fwd_bulk_rate: 0.999999), cho thấy các đặc trưng có thể mang thông tin dư thừa. Tương quan không chứng minh quan hệ nhân quả.</p>
 </div>
 </div>
 </div>
@@ -8454,7 +8454,7 @@ Name: count, dtype: int64
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Nhận xét: Bảng này hiển thị 15 cặp Spearman đứng đầu; các hệ số gần ±1 báo hiệu quan hệ đơn điệu rất mạnh và khả năng đa cộng tuyến giữa một số biến lưu lượng. Nếu các biến này được dùng trong mô hình về sau, nên xem xét trong quy trình chỉ dùng Train và không loại cột chỉ dựa trên tương quan đơn lẻ.</p>
+<p>Nhận xét: Bảng này hiển thị 15 cặp Spearman đứng đầu, các hệ số gần ±1 báo hiệu quan hệ đơn điệu rất mạnh và khả năng đa cộng tuyến giữa một số biến lưu lượng. Nếu các biến này được dùng trong mô hình về sau, nên xem xét trong quy trình chỉ dùng Train và không loại cột chỉ dựa trên tương quan đơn lẻ.</p>
 </div>
 </div>
 </div>
@@ -8548,7 +8548,7 @@ Name: count, dtype: int64
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Nhận xét: Các biểu đồ cho thấy phân bố rất lệch giữa 12 lớp; DOS_SYN_Hping chiếm 76.89% dữ liệu. Giao thức phổ biến nhất là tcp với 110,427 dòng; giá trị service '-' xuất hiện 102,861 lần. Các histogram dùng log1p khi phù hợp chỉ để dễ quan sát, không thay đổi giá trị lưu trong dữ liệu.</p>
+<p>Nhận xét: Các biểu đồ cho thấy phân bố rất lệch giữa 12 lớp, DOS_SYN_Hping chiếm 76.89% dữ liệu. Giao thức phổ biến nhất là tcp với 110,427 dòng, giá trị service '-' xuất hiện 102,861 lần. Các histogram dùng log1p khi phù hợp chỉ để dễ quan sát, không thay đổi giá trị lưu trong dữ liệu.</p>
 </div>
 </div>
 </div>
@@ -8770,7 +8770,7 @@ Name: count, dtype: int64
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Nhận xét: Bảng trung vị so sánh 5 đặc trưng giữa các lớp: chẳng hạn median id.resp_p của MQTT_Publish là 1883, còn của DOS_SYN_Hping là 21. Khác biệt này có thể gợi ý khả năng phân biệt, nhưng cần đọc cùng phân bố và support; lớp NMAP_FIN_SCAN chỉ có 28 dòng nên trung vị của lớp này ít ổn định.</p>
+<p>Nhận xét: Bảng trung vị so sánh 5 đặc trưng giữa các lớp: chẳng hạn median id.resp_p của MQTT_Publish là 1883, còn của DOS_SYN_Hping là 21. Khác biệt này có thể gợi ý khả năng phân biệt, nhưng cần đọc cùng phân bố và support, lớp NMAP_FIN_SCAN chỉ có 28 dòng nên trung vị của lớp này ít ổn định.</p>
 </div>
 </div>
 </div>
@@ -9060,7 +9060,7 @@ Name: count, dtype: int64
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Nhận xét: Boxplot và bảng IQR cho thấy 19,171 giá trị flow_duration (15.57%) nằm ngoài ngưỡng IQR; bwd_pkts_tot có 32,364 điểm bị đánh dấu. Với một số cột có IQR bằng 0, quy tắc IQR có thể đánh dấu nhiều giá trị hợp lệ do Q1=Q3; đây là thống kê cảnh báo, không phải kết luận dữ liệu sai. Biểu đồ thiếu dữ liệu xác nhận 0 ô NaN, và không dòng nào bị xóa.</p>
+<p>Nhận xét: Boxplot và bảng IQR cho thấy 19,171 giá trị flow_duration (15.57%) nằm ngoài ngưỡng IQR, bwd_pkts_tot có 32,364 điểm bị đánh dấu. Với một số cột có IQR bằng 0, quy tắc IQR có thể đánh dấu nhiều giá trị hợp lệ do Q1=Q3, đây là thống kê cảnh báo, không phải kết luận dữ liệu sai. Biểu đồ thiếu dữ liệu xác nhận 0 ô NaN, và không dòng nào bị xóa.</p>
 </div>
 </div>
 </div>
@@ -9210,7 +9210,7 @@ Name: count, dtype: int64
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Nhận xét: Ô cuối hiển thị lại bảng phân bố nhãn và hai hình chính để người đọc nhanh đối chiếu mức mất cân bằng với heatmap tương quan. Đây là phần tổng kết trực quan, không tạo thêm phép biến đổi dữ liệu; các bảng chi tiết và tất cả hình PNG đều được lưu trực tiếp trong folder kết quả.</p>
+<p>Nhận xét: Ô cuối hiển thị lại bảng phân bố nhãn và hai hình chính để người đọc nhanh đối chiếu mức mất cân bằng với heatmap tương quan. Đây là phần tổng kết trực quan, không tạo thêm phép biến đổi dữ liệu, các bảng chi tiết và tất cả hình PNG đều được lưu trực tiếp trong folder kết quả.</p>
 </div>
 </div>
 </div>
