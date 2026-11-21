@@ -1,0 +1,42 @@
+{
+  "experiment": "E14",
+  "compare_id": "E13",
+  "model": "MLPClassifier",
+  "numeric_transform": "Signed-log (E14 Processing)",
+  "data_source": "result/exps/exp4/E14_MLP_SignedLog_Alpha/E14_Preprocessing/data",
+  "preprocessing_notebook": "E14_MLP_SignedLog_Alpha001_Processing.ipynb",
+  "alpha": 0.01,
+  "numeric_scaler": "StandardScaler",
+  "categorical_encoder": "OneHotEncoder",
+  "hidden_layer_sizes": [
+    128,
+    64
+  ],
+  "activation": "relu",
+  "solver": "adam",
+  "learning_rate_init": 0.001,
+  "batch_size": 512,
+  "max_iter": 60,
+  "n_iter_no_change": 8,
+  "early_stopping": false,
+  "random_state": 42,
+  "cv_folds": 3,
+  "train_samples": 82536,
+  "validation_samples": 17686,
+  "classes": [
+    "ARP_poisioning",
+    "DDOS_Slowloris",
+    "DOS_SYN_Hping",
+    "MQTT_Publish",
+    "Metasploit_Brute_Force_SSH",
+    "NMAP_FIN_SCAN",
+    "NMAP_OS_DETECTION",
+    "NMAP_TCP_scan",
+    "NMAP_UDP_SCAN",
+    "NMAP_XMAS_TREE_SCAN",
+    "Thing_Speak",
+    "Wipro_bulb"
+  ],
+  "test_used": false,
+  "comparison_completed": false
+}
