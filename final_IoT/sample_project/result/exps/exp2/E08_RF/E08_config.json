@@ -1,0 +1,9 @@
+{
+  "experiment": "E08",
+  "model": "E08_RF",
+  "n_estimators": 100,
+  "class_weight": "balanced_subsample",
+  "random_state": 42,
+  "train_path": "C:\\homework\\Machine Learning\\SGU26K2_MayHoc_DCT124C3_Nhom4_RT-IoT2022\\final_IoT\\sample_project\\result\\exps\\exp2\\E08_RF\\E08_Preprocessing\\train.csv.gz",
+  "validation_path": "C:\\homework\\Machine Learning\\SGU26K2_MayHoc_DCT124C3_Nhom4_RT-IoT2022\\final_IoT\\sample_project\\result\\exps\\exp2\\E08_RF\\E08_Preprocessing\\validation.csv.gz"
+}
