@@ -1,5 +1,6 @@
 # SGU26K2_MayHoc_DCT124C3_Nhom4_RT-IoT2022
 
+
 ## Thành viên
 
 <table>
@@ -41,3 +42,12 @@
 
 ## Link phân công công việc nhóm: https://docs.google.com/spreadsheets/d/1anzJYDVXp3kiWoB7VXHo2T5IlKezRM_1/edit?usp=sharing&ouid=114781297964179421782&rtpof=true&sd=true
 
+## Link slide: https://canva.link/1ovkbaqvdt6njs7
+
+
+
+## Giới thiệu đồ án
+
+Đồ án nghiên cứu cách dùng học máy để phân loại lưu lượng mạng IoT. Nhóm sử dụng bộ dữ liệu RT-IoT2022, trong đó mỗi dòng là một mẫu lưu lượng được mô tả bằng các đặc trưng mạng; mục tiêu là dự đoán nhãn `Attack_type` thuộc 12 lớp. Đây là bài toán phân loại nhiều lớp trên dữ liệu đã thu thập, không phải một hệ thống phát hiện tấn công đang chạy trực tiếp trên mạng.
+
+Nhóm thực hiện khám phá và kiểm tra dữ liệu, chuẩn bị các tập Train, Validation và Test, sau đó xây dựng và so sánh các mô hình Decision Tree, Random Forest, MLP cùng nhiều cấu hình thực nghiệm. Các mô hình được lựa chọn dựa trên kết quả Cross-Validation và Validation; tập Test được giữ riêng để đánh giá mô hình sau cùng. Qua quá trình so sánh, E06 Random Forest với `class_weight="balanced_subsample"` được chọn. Trên 17.687 mẫu Test, mô hình đạt Accuracy 0,9988 và Macro-F1 0,9747. Kết quả chi tiết theo từng lớp được lưu trong notebook, báo cáo HTML và bảng tính Excel của đồ án.
