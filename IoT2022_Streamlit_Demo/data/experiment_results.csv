@@ -1,0 +1,15 @@
+﻿Experiment,Group,Family,Model,Configuration,CV Macro-F1,CV Macro-F1 SD,Validation Macro-F1,Validation Macro-Recall
+E01,baseline,Decision Tree,Decision Tree,DecisionTreeClassifier; max_depth=không giới hạn; random_state=42,0.9452,0.0087,0.974603668848115,0.965468617191982
+E02,exp1,Decision Tree,Decision Tree,max_depth=12; random_state=42,0.9509,0.0099,0.964061302875327,0.962728033056049
+E03,exp2,Decision Tree,Decision Tree,min_samples_leaf=3; random_state=42,0.9418,0.0096,0.97234086930673,0.959990331459578
+E04,exp3,Decision Tree,Decision Tree,max_depth=12; min_samples_leaf=3; random_state=42,0.9464,0.0127,0.973188380084356,0.962005485367036
+E05,baseline,Random Forest,Random Forest,RandomForestClassifier; n_estimators=100; random_state=42,0.9652,0.004,0.9809742388776,0.967969263491934
+E06,exp1,Random Forest,Random Forest,n_estimators=100; class_weight=balanced_subsample; random_state=42,0.9661,0.0063,0.980809379131332,0.970040075139358
+E07,exp4,Decision Tree,Decision Tree,class_weight=balanced; random_state=42,0.9613,0.0088,0.979412246996014,0.967153499918878
+E08,exp2,Random Forest,Random Forest,n_estimators=100; balanced_subsample; lọc tương quan |r|≥0.98,0.9658,0.0092,0.974979874376887,0.970863527655883
+E09,exp3,Random Forest,Random Forest,n_estimators=100; balanced_subsample; loại id.orig_p và id.resp_p,0.9586,0.0155,0.974444434296856,0.964532288911853
+E10,baseline,MLP,MLP Baseline,MLP (64); StandardScaler; alpha=0.0001; max_iter=60,0.9459,0.0103,0.965940442854696,0.949063291987828
+E11,exp1,MLP,MLP NoScaler,MLP (64); không dùng scaler; alpha=0.0001; max_iter=60,0.6522,0.0708,0.627222905912733,0.670466564940019
+E12,exp2,MLP,MLP Signed-Log,Signed-log + StandardScaler; MLP (64); alpha=0.0001; max_iter=60,0.9495,0.008,0.967775,0.956586
+E13,exp3,MLP,"MLP Signed-Log (128,64)","Signed-log + StandardScaler; MLP (128,64); alpha=0.0001; max_iter=60",0.9493,0.0167,0.969513,0.954769
+E14,exp4,MLP,MLP Signed-Log Alpha,"Signed-log + StandardScaler; MLP (128,64); alpha=0.01; max_iter=60",0.9499,0.0147,0.961316,0.954116

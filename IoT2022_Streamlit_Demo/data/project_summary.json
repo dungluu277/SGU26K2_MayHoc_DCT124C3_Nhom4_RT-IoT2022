@@ -1,0 +1,54 @@
+{
+  "dataset": {
+    "name": "RT-IoT2022",
+    "raw_rows": 123117,
+    "raw_columns": 85,
+    "clean_rows": 117909,
+    "input_features": 82,
+    "numeric_features": 80,
+    "categorical_features": ["proto", "service"],
+    "target": "Attack_type",
+    "classes": 12,
+    "majority_class": "DOS_SYN_Hping",
+    "majority_count": 94659,
+    "rarest_class": "NMAP_FIN_SCAN",
+    "rarest_count": 28,
+    "label_groups": {
+      "Benign": ["MQTT_Publish", "Thing_Speak", "Wipro_bulb"],
+      "Attack": [
+        "ARP_poisioning",
+        "DDOS_Slowloris",
+        "DOS_SYN_Hping",
+        "Metasploit_Brute_Force_SSH",
+        "NMAP_FIN_SCAN",
+        "NMAP_OS_DETECTION",
+        "NMAP_TCP_scan",
+        "NMAP_UDP_SCAN",
+        "NMAP_XMAS_TREE_SCAN"
+      ]
+    },
+    "train_rows": 82536,
+    "validation_rows": 17686,
+    "test_rows": 17687
+  },
+  "selected_model": {
+    "name": "E06 Random Forest (class_weight=balanced_subsample)",
+    "cv_macro_f1": 0.966133,
+    "cv_macro_f1_sd": 0.006280,
+    "validation_macro_f1": 0.980809,
+    "validation_macro_recall": 0.970040,
+    "test": {
+      "accuracy": 0.9988126872844462,
+      "macro_f1": 0.9746797619936145,
+      "macro_recall": 0.9608688164271467,
+      "macro_precision": 0.9968903158188983,
+      "correct": 17666,
+      "rows": 17687,
+      "errors": 21
+    }
+  },
+  "reference": {
+    "doi": "10.24432/C5P338",
+    "citation": "UCI Machine Learning Repository, RT-IoT2022"
+  }
+}
