@@ -1,0 +1,11 @@
+service,count
+-,102861
+dns,9753
+mqtt,4132
+http,3464
+ssl,2663
+ntp,121
+dhcp,50
+irc,43
+ssh,28
+radius,2
